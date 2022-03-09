@@ -1,0 +1,8 @@
+Select [Measures].[Phi Tien BH] On Columns,
+       [Dim Chi Nhanh].[Ma CN].[Ma CN] On Rows
+From [Bao Hiem Nhan Tho Dim];
+
+
+Select{[Dim Ngay].[Ngay Thang Nam].&[2010-01-01T00:00:00]}On Rows,
+[Measures].[Phi Tien BH] On Columns
+From [Bao Hiem Nhan Tho Dim];

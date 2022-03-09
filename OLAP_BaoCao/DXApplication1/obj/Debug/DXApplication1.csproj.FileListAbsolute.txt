@@ -1,0 +1,15 @@
+F:\DXApplication1\DXApplication1\bin\Debug\DXApplication1.exe.config
+F:\DXApplication1\DXApplication1\bin\Debug\Dashboards\dashboard1.xml
+F:\DXApplication1\DXApplication1\bin\Debug\Data\Sales.xlsx
+F:\DXApplication1\DXApplication1\bin\Debug\DXApplication1.exe
+F:\DXApplication1\DXApplication1\bin\Debug\DXApplication1.pdb
+F:\DXApplication1\DXApplication1\obj\Debug\DXApplication1.csprojResolveAssemblyReference.cache
+F:\DXApplication1\DXApplication1\obj\Debug\DXApplication1.DesignerForm1.resources
+F:\DXApplication1\DXApplication1\obj\Debug\DXApplication1.Properties.Resources.resources
+F:\DXApplication1\DXApplication1\obj\Debug\DXApplication1.csproj.GenerateResource.Cache
+F:\DXApplication1\DXApplication1\obj\Debug\DXApplication1.exe.licenses
+F:\DXApplication1\DXApplication1\obj\Debug\DXApplication1.exe
+F:\DXApplication1\DXApplication1\obj\Debug\DXApplication1.pdb
+C:\Users\User\Desktop\OLAP_Nhomdetai8_TranTanTinh_PhamDucThong\OLAP_BaoCao\DXApplication1\bin\Debug\DXApplication1.exe.config
+C:\Users\User\Desktop\OLAP_Nhomdetai8_TranTanTinh_PhamDucThong\OLAP_BaoCao\DXApplication1\obj\Debug\DXApplication1.exe
+C:\Users\User\Desktop\OLAP_Nhomdetai8_TranTanTinh_PhamDucThong\OLAP_BaoCao\DXApplication1\obj\Debug\DXApplication1.pdb

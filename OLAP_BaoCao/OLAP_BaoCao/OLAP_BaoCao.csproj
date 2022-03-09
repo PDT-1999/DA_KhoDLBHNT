@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{127FE41A-1A79-4F56-BC61-E1EFD64A3EB1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OLAP_BaoCao</RootNamespace>
+    <AssemblyName>OLAP_BaoCao</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChiNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChiNhanh.Designer.cs">
+      <DependentUpon>ChiNhanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataProvide.cs" />
+    <Compile Include="HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoaDon.Designer.cs">
+      <DependentUpon>HoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KH_MBM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KH_MBM.Designer.cs">
+      <DependentUpon>KH_MBM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadBangFactLenDW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadBangFactLenDW.Designer.cs">
+      <DependentUpon>LoadBangFactLenDW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadChiNhanhLenDW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadChiNhanhLenDW.Designer.cs">
+      <DependentUpon>LoadChiNhanhLenDW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadKH_MBMLenDW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadKH_MBMLenDW.Designer.cs">
+      <DependentUpon>LoadKH_MBMLenDW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadSanPhamLenDW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadSanPhamLenDW.Designer.cs">
+      <DependentUpon>LoadSanPhamLenDW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadNgayThangNamLenDW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadNgayThangNamLenDW.Designer.cs">
+      <DependentUpon>LoadNgayThangNamLenDW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SanPham.Designer.cs">
+      <DependentUpon>SanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChiNhanh.resx">
+      <DependentUpon>ChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDon.resx">
+      <DependentUpon>HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KH_MBM.resx">
+      <DependentUpon>KH_MBM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadBangFactLenDW.resx">
+      <DependentUpon>LoadBangFactLenDW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadChiNhanhLenDW.resx">
+      <DependentUpon>LoadChiNhanhLenDW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadKH_MBMLenDW.resx">
+      <DependentUpon>LoadKH_MBMLenDW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadNgayThangNamLenDW.resx">
+      <DependentUpon>LoadNgayThangNamLenDW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadSanPhamLenDW.resx">
+      <DependentUpon>LoadSanPhamLenDW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SanPham.resx">
+      <DependentUpon>SanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
